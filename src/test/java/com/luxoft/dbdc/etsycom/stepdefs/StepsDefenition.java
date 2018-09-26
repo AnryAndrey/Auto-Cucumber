@@ -40,7 +40,6 @@ public class StepsDefenition {
         etsyPage.acceptTermsAndConditions();
     }
 
-
     @When("I search for \"(.*?)\" items")
     public void i_search_for_items(String items) {
         etsyPage.searchFor(items);
