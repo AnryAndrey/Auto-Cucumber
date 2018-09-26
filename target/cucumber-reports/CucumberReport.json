@@ -1,0 +1,95 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Search for particular item",
+        "description": "",
+        "id": "search-for-items-on-etsy;search-for-particular-item",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2952000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the main page",
+            "match": {
+              "location": "StepsDefenition.i_am_on_the_main_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 879300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I accept terms and conditions",
+            "match": {
+              "location": "StepsDefenition.i_accept_terms_and_conditions()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 789300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I search for \"handmade paper toy\" items",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"handmade paper toy\"",
+                  "offset": 13
+                }
+              ],
+              "location": "StepsDefenition.i_search_for_items(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 561000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I see search results",
+            "match": {
+              "location": "StepsDefenition.i_see_search_results()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1893600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I get search results for \"paper toy\" items",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"paper toy\"",
+                  "offset": 25
+                }
+              ],
+              "location": "StepsDefenition.i_get_search_results_for_items(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Search for items on Etsy",
+    "description": "  As a user\n  I want to search for different items\n  So that I will be able to buy necessary items fast",
+    "id": "search-for-items-on-etsy",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/EtsyComSample.feature",
+    "tags": []
+  }
+]
