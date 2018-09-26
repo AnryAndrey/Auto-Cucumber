@@ -9,6 +9,9 @@ formatter.scenario({
   "description": "",
   "keyword": "Scenario"
 });
+formatter.before({
+  "status": "passed"
+});
 formatter.step({
   "name": "I am on the main page",
   "keyword": "Given "
@@ -57,6 +60,9 @@ formatter.match({
   "location": "StepsDefenition.i_get_search_results_for_items(String)"
 });
 formatter.result({
+  "status": "passed"
+});
+formatter.after({
   "status": "passed"
 });
 });

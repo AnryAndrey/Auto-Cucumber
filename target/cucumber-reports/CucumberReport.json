@@ -3,16 +3,38 @@
     "line": 1,
     "elements": [
       {
+        "before": [
+          {
+            "result": {
+              "duration": 4134652200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsDefenition.initializeTest()"
+            }
+          }
+        ],
         "line": 6,
         "name": "Search for particular item",
         "description": "",
         "id": "search-for-items-on-etsy;search-for-particular-item",
+        "after": [
+          {
+            "result": {
+              "duration": 735781700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsDefenition.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 2952000,
+              "duration": 4914434200,
               "status": "passed"
             },
             "line": 7,
@@ -24,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 879300,
+              "duration": 670100,
               "status": "passed"
             },
             "line": 8,
@@ -36,7 +58,7 @@
           },
           {
             "result": {
-              "duration": 789300,
+              "duration": 788300,
               "status": "passed"
             },
             "line": 9,
@@ -44,8 +66,8 @@
             "match": {
               "arguments": [
                 {
-                  "val": "\"handmade paper toy\"",
-                  "offset": 13
+                  "val": "handmade paper toy",
+                  "offset": 14
                 }
               ],
               "location": "StepsDefenition.i_search_for_items(String)"
@@ -54,7 +76,7 @@
           },
           {
             "result": {
-              "duration": 561000,
+              "duration": 4343000,
               "status": "passed"
             },
             "line": 10,
@@ -66,7 +88,7 @@
           },
           {
             "result": {
-              "duration": 1893600,
+              "duration": 858300,
               "status": "passed"
             },
             "line": 11,
@@ -74,8 +96,8 @@
             "match": {
               "arguments": [
                 {
-                  "val": "\"paper toy\"",
-                  "offset": 25
+                  "val": "paper toy",
+                  "offset": 26
                 }
               ],
               "location": "StepsDefenition.i_get_search_results_for_items(String)"
